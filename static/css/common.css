@@ -1,0 +1,33 @@
+body{
+    font-family: "Helvetica Neue",Helvetica,"PingFang SC","Hiragino Sans GB","Microsoft YaHei","微软雅黑",Arial,sans-serif;
+}
+/* commom css */
+html,body{
+    width:100%;
+    height:100%;
+}
+.content{
+    width:960px;
+}
+.content:after{
+    content:"";
+    display:block;
+    visibility:hidden;
+    clear:both;
+    height:0;
+}
+    .left{
+        float: left;
+        width:20%;
+        text-align: center;
+        
+    }
+    .left li{
+        height:50px;
+        line-height: 50px;
+        font-size:16px;
+    }
+    .right{
+        float:right;
+        width:80%;
+    }
